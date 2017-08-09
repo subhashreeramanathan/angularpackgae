@@ -1,0 +1,28 @@
+{
+  "name": "angularpackage",
+  "version": "0.0.7",
+  "description": "It is a test package for npm publish",
+  "main": "./angularpackage.js",
+  "typings": "./angularpackage.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/subhashreeramanathan/angular/tree/visualstudio"
+  },
+  "keywords": [
+    "angular"
+  ],
+  "author": "subha",
+  "license": "MIT",
+  "dependencies": {
+    
+  },
+  "devDependencies": {
+    "@angular/core": "^4.3.3",
+    "rxjs": "^5.4.2",
+    "typescript": "^2.4.2"
+  }
+}
